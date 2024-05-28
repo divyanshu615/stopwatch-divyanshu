@@ -1,0 +1,32 @@
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+
+.stopwatch-display {
+  margin-bottom: 20px;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatch-buttons .btn {
+  margin: 5px;
+  border-radius: 10%;
+}
+
+@media (min-width: 576px) {
+  .stopwatch-buttons {
+    flex-direction: row;
+  }
+}
